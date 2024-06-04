@@ -46,7 +46,7 @@ int main()
   not is in the scope of class
   since it is not in the scope of the class, it can't be called from the object of that class,  c1.sumComplex() == invalid
   Can be invoked without the help of any object
-  ususally  contains the objects as arguments
+  usually  contains the objects as arguments
   can be declared inside public or private section of the class
   it can't access the members directly by their names and need object_name.member_name to access any member
 
