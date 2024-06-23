@@ -19,7 +19,7 @@ class Derived : public Base1, public Base2{
     int a;
     public:
         void greet(){
-            Base1 :: greet();
+            Base2 :: greet();
         }
 };
 
@@ -43,15 +43,15 @@ class D : public B{
 
 int main()
 {
-    /*
+    
     //Ambuiguity 1
     Base1 base1obj;
     Base2 base2obj;
     base1obj.greet();
     base2obj.greet();
-    Derived d;
-    d.greet();
-    */
+    Derived dc;
+    dc.greet();
+    
    B b;
    b.say();
 
